@@ -1,0 +1,24 @@
+{
+    "name": "adityamenon/postcodes-io",
+    "description": "",
+    "authors": [
+        {
+            "name": "aditya menon",
+            "email": "hello@adityamenon.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "guzzle/http": "~3.9"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Adityamenon\\PostcodesIo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
