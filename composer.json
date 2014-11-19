@@ -10,7 +10,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
-        "guzzle/http": "~3.9"
+        "guzzlehttp/guzzle-services": "~0.1"
     },
     "autoload": {
         "classmap": [

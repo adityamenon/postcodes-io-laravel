@@ -4,7 +4,6 @@ use Illuminate\Support\ServiceProvider;
 
 class PostcodesIoServiceProvider extends ServiceProvider
 {
-
     /**
     * Indicates if loading of the provider is deferred.
     *
@@ -29,7 +28,9 @@ class PostcodesIoServiceProvider extends ServiceProvider
     */
     public function register()
     {
-
+        $this->app->bind('adityamenon.postcodes-io', function () {
+            return (new ApiClientFactory)->create();
+        });
     }
 
     /**
@@ -41,5 +42,4 @@ class PostcodesIoServiceProvider extends ServiceProvider
     {
         return array();
     }
-
 }
