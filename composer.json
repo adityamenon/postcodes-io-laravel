@@ -13,9 +13,6 @@
         "guzzlehttp/guzzle-services": "~0.1"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Adityamenon\\PostcodesIo\\": "src/"
         }
