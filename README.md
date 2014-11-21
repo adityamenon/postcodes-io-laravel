@@ -1,7 +1,7 @@
 PostcodesIo Laravel Package
 ============================
 
-[![Build Status](https://travis-ci.org/adityamenon/postcodes-io.svg)](https://travis-ci.org/adityamenon/postcodes-io)
+[![Build Status](https://travis-ci.org/adityamenon/postcodes-io-laravel.svg?branch=1.0.1)](https://travis-ci.org/adityamenon/postcodes-io-laravel)
 
 A laravel package for querying the [postcodes.io](http://postcodes.io) web service.
 
