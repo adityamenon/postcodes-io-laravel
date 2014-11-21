@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~4.1",
+        "illuminate/support": "~4.1.0",
         "guzzlehttp/guzzle-services": "~0.1"
     },
     "autoload": {
