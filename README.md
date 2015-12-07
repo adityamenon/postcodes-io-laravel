@@ -1,3 +1,8 @@
+ABANDONED
+============================
+Sorry, if you've come here looking for updates, I regret to inform that this package has now been abandoned. Please ping me @codeisawesome on twitter if you need something urgent to updated here. Forking and updating it, however, is a better idea.
+
+
 PostcodesIo Laravel Package
 ============================
 
